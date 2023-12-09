@@ -40,7 +40,7 @@ export default {
         mendixResolve(
             "C:/Program Files/Mendix/10.1.1.12532/modeler/tools/node/web-resolutions.json",
             "C:/Program Files/Mendix/10.1.1.12532/modeler/tools/node/node_modules",
-            "C:/Users/david/Mendix/MaintenanceMode/deployment/web/cachetag.txt"
+            "C:/Users/david/Mendix/MaintenanceMode-main/deployment/web/cachetag.txt"
         ),
         nodePolyfills(),
         esbuild({
@@ -86,11 +86,11 @@ export default {
             minify: isProduction
         }),
         generatePrecacheServiceWorker({
-            deploymentDir: "C:/Users/david/Mendix/MaintenanceMode/deployment"
+            deploymentDir: "C:/Users/david/Mendix/MaintenanceMode-main/deployment"
         }),
         copy({
             targets: [
-              { src: 'C:/Users/david/Mendix/MaintenanceMode/deployment/web/widgets/*', dest: 'dist' },
+              { src: 'C:/Users/david/Mendix/MaintenanceMode-main/deployment/web/widgets/*', dest: 'dist' },
             ]
         })
     ],

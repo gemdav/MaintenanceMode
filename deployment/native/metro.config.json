@@ -1,8 +1,8 @@
 {
   "watchFolders": [
-    "C:/Users/david/Mendix/MaintenanceMode/theme",
-    "C:/Users/david/Mendix/MaintenanceMode/javascriptsource",
-    "C:/Users/david/Mendix/MaintenanceMode/themesource",
+    "C:/Users/david/Mendix/MaintenanceMode-main/theme",
+    "C:/Users/david/Mendix/MaintenanceMode-main/javascriptsource",
+    "C:/Users/david/Mendix/MaintenanceMode-main/themesource",
     "C:/Program Files/Mendix/10.1.1.12532/modeler/tools/node/node_modules"
   ],
   "resolver": {
@@ -23,7 +23,7 @@
       "js_commonjs-module"
     ],
     "extraNodeModules": {
-      "externalWidgets": "C:/Users/david/Mendix/MaintenanceMode/deployment/native/externalWidgets",
+      "externalWidgets": "C:/Users/david/Mendix/MaintenanceMode-main/deployment/native/externalWidgets",
       "@babel/runtime": "C:/Program Files/Mendix/10.1.1.12532/modeler/tools/node/node_modules/@babel/runtime",
       "big.js": "C:/Program Files/Mendix/10.1.1.12532/modeler/tools/node/node_modules/big.js",
       "react": "C:/Program Files/Mendix/10.1.1.12532/modeler/tools/node/node_modules/react",

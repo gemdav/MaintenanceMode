@@ -1,11 +1,11 @@
 ext {
 	mendixInstallDir = "C:/Program Files/Mendix/10.1.1.12532"
 	projectName = "MaintenanceMode"
-	projectSafeName = "MaintenanceMode"
-	mendixProjectDir = "C:/Users/david/Mendix/MaintenanceMode"
-	deploymentDir = "C:/Users/david/Mendix/MaintenanceMode/deployment"
-	dataSnapshotFile = "C:/Users/david/Mendix/MaintenanceMode/data-snapshot.zip"
-	dataDir = "C:/Users/david/Mendix/MaintenanceMode/deployment/data"
+	projectSafeName = "MaintenanceMode_main"
+	mendixProjectDir = "C:/Users/david/Mendix/MaintenanceMode-main"
+	deploymentDir = "C:/Users/david/Mendix/MaintenanceMode-main/deployment"
+	dataSnapshotFile = "C:/Users/david/Mendix/MaintenanceMode-main/data-snapshot.zip"
+	dataDir = "C:/Users/david/Mendix/MaintenanceMode-main/deployment/data"
 	extractDataSnapshot = false
 	templatesDir = "C:/Program Files/Mendix/10.1.1.12532/modeler/runtemplates"
 	runDir = "run"

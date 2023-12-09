@@ -9,8 +9,6 @@
     "ApplicationRootUrl": "http://localhost:8080/",
     "ScheduledEventExecution": "None"
   },
-  "Constants": {
-    "NanoflowCommons.Nanoflow_Commons_Version": "4.0.0"
-  },
+  "Constants": {},
   "AdminPassword": "1"
 }

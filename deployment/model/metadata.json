@@ -21,18 +21,13 @@
     }
   },
   "AdminRole": "8dd52bfa-6d7e-453b-b506-303c0a3d9567",
-  "Constants": [
-    {
-      "Name": "NanoflowCommons.Nanoflow_Commons_Version",
-      "Type": "String",
-      "Description": "",
-      "DefaultValue": "4.0.0"
-    }
-  ],
+  "Constants": [],
   "ScheduledEvents": [],
   "Languages": [
     "en_US",
-    "de_DE"
+    "de_DE",
+    "nl_NL",
+    "es_ES"
   ],
   "Configuration": {
     "SourceDatabaseType": "HSQLDB",

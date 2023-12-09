@@ -3,23 +3,23 @@ Initialized jansi services in: C:\Users\david\.gradle\native
 Received JVM installation metadata from 'C:\Program Files\ojdkbuild\java-11-openjdk-11.0.15-1': {JAVA_HOME=C:\Program Files\ojdkbuild\java-11-openjdk-11.0.15-1, JAVA_VERSION=11.0.15, JAVA_VENDOR=ojdkbuild, RUNTIME_NAME=OpenJDK Runtime Environment, RUNTIME_VERSION=11.0.15+9-LTS, VM_NAME=OpenJDK 64-Bit Server VM, VM_VERSION=11.0.15+9-LTS, VM_VENDOR=ojdkbuild, OS_ARCH=amd64}
 Found daemon DaemonInfo{pid=18952, address=[31accda0-ef92-4011-9119-a1e5a4351050 port:57650, addresses:[/127.0.0.1]], state=Idle, lastBusy=1693469997297, context=DefaultDaemonContext[uid=db8fafd2-6225-4f28-9661-e52204da800f,javaHome=C:\Program Files\Eclipse Adoptium\jdk-11.0.16.101-hotspot,daemonRegistryDir=C:\Users\david\.gradle\daemon,pid=18952,idleTimeout=10800000,priority=NORMAL,daemonOpts=--add-opens=java.base/java.util=ALL-UNNAMED,--add-opens=java.base/java.lang=ALL-UNNAMED,--add-opens=java.base/java.lang.invoke=ALL-UNNAMED,--add-opens=java.prefs/java.util.prefs=ALL-UNNAMED,--add-opens=java.base/java.nio.charset=ALL-UNNAMED,--add-opens=java.base/java.net=ALL-UNNAMED,--add-opens=java.base/java.util.concurrent.atomic=ALL-UNNAMED,-XX:MaxMetaspaceSize=256m,-XX:+HeapDumpOnOutOfMemoryError,-Xms256m,-Xmx512m,-Dfile.encoding=windows-1252,-Duser.country=US,-Duser.language=en,-Duser.variant]} however its context does not match the desired criteria.
 Java home is different.
-Wanted: DefaultDaemonContext[uid=null,javaHome=C:\Program Files\ojdkbuild\java-11-openjdk-11.0.15-1,daemonRegistryDir=C:\Users\david\.gradle\daemon,pid=12800,idleTimeout=null,priority=NORMAL,daemonOpts=--add-opens=java.base/java.util=ALL-UNNAMED,--add-opens=java.base/java.lang=ALL-UNNAMED,--add-opens=java.base/java.lang.invoke=ALL-UNNAMED,--add-opens=java.prefs/java.util.prefs=ALL-UNNAMED,--add-opens=java.base/java.nio.charset=ALL-UNNAMED,--add-opens=java.base/java.net=ALL-UNNAMED,--add-opens=java.base/java.util.concurrent.atomic=ALL-UNNAMED,-XX:MaxMetaspaceSize=256m,-XX:+HeapDumpOnOutOfMemoryError,-Xms256m,-Xmx512m,-Dfile.encoding=windows-1252,-Duser.country=US,-Duser.language=en,-Duser.variant]
+Wanted: DefaultDaemonContext[uid=null,javaHome=C:\Program Files\ojdkbuild\java-11-openjdk-11.0.15-1,daemonRegistryDir=C:\Users\david\.gradle\daemon,pid=14364,idleTimeout=null,priority=NORMAL,daemonOpts=--add-opens=java.base/java.util=ALL-UNNAMED,--add-opens=java.base/java.lang=ALL-UNNAMED,--add-opens=java.base/java.lang.invoke=ALL-UNNAMED,--add-opens=java.prefs/java.util.prefs=ALL-UNNAMED,--add-opens=java.base/java.nio.charset=ALL-UNNAMED,--add-opens=java.base/java.net=ALL-UNNAMED,--add-opens=java.base/java.util.concurrent.atomic=ALL-UNNAMED,-XX:MaxMetaspaceSize=256m,-XX:+HeapDumpOnOutOfMemoryError,-Xms256m,-Xmx512m,-Dfile.encoding=windows-1252,-Duser.country=US,-Duser.language=en,-Duser.variant]
 Actual: DefaultDaemonContext[uid=db8fafd2-6225-4f28-9661-e52204da800f,javaHome=C:\Program Files\Eclipse Adoptium\jdk-11.0.16.101-hotspot,daemonRegistryDir=C:\Users\david\.gradle\daemon,pid=18952,idleTimeout=10800000,priority=NORMAL,daemonOpts=--add-opens=java.base/java.util=ALL-UNNAMED,--add-opens=java.base/java.lang=ALL-UNNAMED,--add-opens=java.base/java.lang.invoke=ALL-UNNAMED,--add-opens=java.prefs/java.util.prefs=ALL-UNNAMED,--add-opens=java.base/java.nio.charset=ALL-UNNAMED,--add-opens=java.base/java.net=ALL-UNNAMED,--add-opens=java.base/java.util.concurrent.atomic=ALL-UNNAMED,-XX:MaxMetaspaceSize=256m,-XX:+HeapDumpOnOutOfMemoryError,-Xms256m,-Xmx512m,-Dfile.encoding=windows-1252,-Duser.country=US,-Duser.language=en,-Duser.variant]
 
   Looking for a different daemon...
 The client will now receive all logging from the daemon (pid: 8248). The daemon log file: C:\Users\david\.gradle\daemon\7.6\daemon-8248.out.log
-Starting 6th build in daemon [uptime: 45 mins 8.82 secs, performance: 100%, non-heap usage: 24% of 256 MiB]
+Starting 17th build in daemon [uptime: 2 hrs 12 mins 21.288 secs, performance: 100%, non-heap usage: 28% of 256 MiB]
 Using 16 worker leases.
-Now considering [C:\Users\david\Mendix\MaintenanceMode\deployment] as hierarchies to watch
+Now considering [C:\Users\david\Mendix\MaintenanceMode-main\deployment] as hierarchies to watch
 Watching the file system is configured to be enabled if available
 File system watching is active
 Starting Build
-Settings evaluated using settings file 'C:\Users\david\Mendix\MaintenanceMode\deployment\settings.gradle'.
-Projects loaded. Root project using build file 'C:\Users\david\Mendix\MaintenanceMode\deployment\build.gradle'.
+Settings evaluated using settings file 'C:\Users\david\Mendix\MaintenanceMode-main\deployment\settings.gradle'.
+Projects loaded. Root project using build file 'C:\Users\david\Mendix\MaintenanceMode-main\deployment\build.gradle'.
 Included projects: [root project 'deployment']
 
 > Configure project :
-Evaluating root project 'deployment' using build file 'C:\Users\david\Mendix\MaintenanceMode\deployment\build.gradle'.
+Evaluating root project 'deployment' using build file 'C:\Users\david\Mendix\MaintenanceMode-main\deployment\build.gradle'.
 All projects evaluated.
 Task name matched 'clean-excluded-jars'
 Task name matched 'deploy'
@@ -47,32 +47,32 @@ Task ':copyDeploymentArtifacts' is not up-to-date because:
 Not watching anything anymore
 Watching 0 directory hierarchies to track changes
 Resolve mutations for :copyLibs (Thread[Execution worker,5,main]) started.
-:copyLibs (Thread[Execution worker Thread 2,5,main]) started.
+:copyLibs (Thread[Execution worker,5,main]) started.
 
 > Task :copyLibs UP-TO-DATE
 Watching 1 directory hierarchies to track changes
 Caching disabled for task ':copyLibs' because:
   Build cache is disabled
 Skipping task ':copyLibs' as it is up-to-date.
-Resolve mutations for :copyResources (Thread[Execution worker Thread 2,5,main]) started.
-:copyResources (Thread[Execution worker Thread 2,5,main]) started.
+Resolve mutations for :copyResources (Thread[Execution worker,5,main]) started.
+:copyResources (Thread[Execution worker Thread 13,5,main]) started.
 
 > Task :copyResources NO-SOURCE
 Skipping task ':copyResources' as it has no source files and no previous output files.
-Resolve mutations for :unzipDataSnapshot (Thread[Execution worker Thread 2,5,main]) started.
-:unzipDataSnapshot (Thread[Execution worker Thread 2,5,main]) started.
+Resolve mutations for :unzipDataSnapshot (Thread[Execution worker Thread 13,5,main]) started.
+:unzipDataSnapshot (Thread[Execution worker Thread 13,5,main]) started.
 
 > Task :unzipDataSnapshot SKIPPED
 Skipping task ':unzipDataSnapshot' as task onlyIf 'Task is enabled' is false.
-Resolve mutations for :deploy (Thread[Execution worker Thread 2,5,main]) started.
-:deploy (Thread[Execution worker Thread 2,5,main]) started.
+Resolve mutations for :deploy (Thread[Execution worker Thread 13,5,main]) started.
+:deploy (Thread[Execution worker Thread 13,5,main]) started.
 
 > Task :deploy
 Skipping task ':deploy' as it has no actions.
 
 BUILD SUCCESSFUL in 1s
 3 actionable tasks: 1 executed, 2 up-to-date
-Watched directory hierarchies: [C:\Users\david\Mendix\MaintenanceMode\deployment]
+Watched directory hierarchies: [C:\Users\david\Mendix\MaintenanceMode-main\deployment]
 
 
 
