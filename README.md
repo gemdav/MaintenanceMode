@@ -1,6 +1,6 @@
 # Maintenance Mode module for Mendix
 
-This module provides functionalities for a maintenance mode in Mendix applications. It enables administrators to to prevent users from performing actions while maintenance is done.
+This module provides functionalities for a maintenance mode in running Mendix applications. It enables administrators to to prevent users from performing actions while maintenance is done.
 
 ## Typical usage scenario
 
