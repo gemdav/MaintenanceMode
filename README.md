@@ -15,7 +15,7 @@ For Mendix application administrators and developers that have to perform mainte
 ## Installation
 
 1. Install the Dependencies from the Mendix Marketplace:
-  - [Atlas Core](https://marketplace.mendix.com/link/component/117187)
+	- [Atlas Core](https://marketplace.mendix.com/link/component/117187)
 2. Install the Maintenance Mode (TODO: Add marketplace link) from the Mendix Marketplace
 3. Assign the module roles to your projects user roles. Users with the module role ```Administrators``` can configure and en-/disable the maintenance mode. Assign the module role ```Affectable``` to every user role that should be affectable by the maintenance mode. 
 4. Add the ```SNPT_MaintenanceMode_Configuration``` Snippet to a page you can access. Alternatively you can use the ```MaintenanceMode_Configuration``` page.
@@ -28,7 +28,7 @@ For Mendix application administrators and developers that have to perform mainte
 3. Select affected roles according to your needs
 4. En-/ disable the maintenance mode every time you need it. Adjust the affected roles accordingly. 
 
-## Help improving this package
+## Help improving this module
 
 I built this module based on my own use cases for maintenance in running Mendix applications. Please let me know if you are missing any features so I can consider adding them in a later version. Please also let me know if you know a way to make the installation of the module more convenient and seamless, especially how to avoid the 5th step of the installation process.
 
